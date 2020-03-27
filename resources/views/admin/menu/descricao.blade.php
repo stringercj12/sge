@@ -1,0 +1,16 @@
+<h3>Tabela de protocolos</h3>
+<strong>id</strong>: (Id de identificação do protocolo)
+<strong>titulo</strong>: (Titulo do protocolo, ex: Revisão de nota AV1)
+<strong>descricao</strong>: (Relato do motivo da abertura do protocolo)
+<strong>anexo1</strong>: (Caso tenha anexo, referente ao solicitação do protocolo pelo solicitante)
+<strong>anexo2</strong>: (Caso tenha anexo, referente ao solicitação do protocolo pelo solicitante)
+<strong>tipo_solicitacao</strong>: (Solicitação, Reclamação, Inclusão, Informação, Outros, Retirada)
+<strong>id_solicitante</strong>: (Referência a tabela users)
+<strong>status</strong>: (Aberto, Pendente, Andamento, Fechado) -> Sempre que aberto começa como pendente
+<strong>nivel_de_dificuldade</strong>: (Alta, Média, Baixa)
+<strong>data_abertura</strong>: (Data que foi realizado a abertura)
+<strong>data_prevista</strong>: (Depende do tipo de solicitação será calculado somando a data da abertura mas os dias para resolver o protocolo)
+<strong>data_fechamento</strong>: (Data que o protocolo foi resolvido)
+<strong>resolucao</strong>: (resposta ao protocolo)
+<strong>id_responsavel_resolucao</strong>: (ainda será verificadose entra no banco)
+<strong>anexo_resolucao</strong>: (Caso tenha anexo, referente ao solução do protocolo)
