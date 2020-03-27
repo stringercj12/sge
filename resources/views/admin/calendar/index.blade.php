@@ -5,8 +5,8 @@
 @section('content_header')
     <h1>Meu Calendário</h1>
     <ol class="breadcrumb">
-      <li><a href="{{ route('admin.home') }}"><i class="fa fa-home"></i> Home</a></li>
-      <li class="active">Calendário</li>
+      <li class="breadcrumb-item"><a href="{{ route('admin.home') }}"><i class="fa fa-home"></i> Home</a></li>
+      <li class="breadcrumb-item active">Calendário</li>
     </ol>
 @endsection
 

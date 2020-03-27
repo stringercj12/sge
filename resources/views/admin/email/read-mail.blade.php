@@ -3,9 +3,9 @@
 @section('content_header')
     <h1>Meu Perfil</h1>
     <ol class="breadcrumb">
-        <li><a href="{{ route('admin.home')}}"><i class="fa fa-home"></i> Home</a></li>
-        <li><a href="{{ route('url_admin_email')}}">Mailbox</a></li>
-        <li class="active">Rascunho</li>
+        <li class="breadcrumb-item"><a href="{{ route('admin.home')}}"><i class="fa fa-home"></i> Home</a></li>
+        <li class="breadcrumb-item"><a href="{{ route('url_admin_email')}}">Mailbox</a></li>
+        <li class="breadcrumb-item active">Rascunho</li>
     </ol>
 @stop
 
@@ -22,7 +22,7 @@
         </button>
       </div>
     </div>
-    
+
     <!-- mailbox-read-info-inicio -->
     <div class="card-body p-0">
     @if (session('error'))
@@ -40,7 +40,7 @@
           <span class="mailbox-read-time float-right">15 Feb. 2015 11:03 PM</span></h6>
       </div>
       <!-- mailbox-read-info-final -->
-      
+
       <!-- mailbox-controls-inicio -->
       <div class="mailbox-controls with-border text-center">
         <div class="btn-group">
@@ -60,7 +60,7 @@
           </button>
       </div>
       <!-- mailbox-controls-final -->
-      
+
       <!-- mailbox-read-message-inicio -->
       <div class="mailbox-read-message" id="areaImpressao">
         @php
@@ -69,8 +69,8 @@
       </div>
       <!-- mailbox-read-message-final -->
     </div>
-    
-    
+
+
     <!-- Area de arquivos -->
     <div class="box-footer bg-white">
       <ul class="mailbox-attachments d-flex align-items-stretch clearfix">
@@ -95,7 +95,7 @@
 
           <div class="mailbox-attachment-info">
             <a href="#" class="mailbox-attachment-name">
-              <i class="fas fa-paperclip"></i> 
+              <i class="fas fa-paperclip"></i>
               App Description.docx
             </a>
             <span class="mailbox-attachment-size">
@@ -112,10 +112,10 @@
             <i class="far fa-file-image"></i>
           </span>
 
-          
+
           <div class="mailbox-attachment-info">
             <a href="#" class="mailbox-attachment-name">
-              <i class="fas fa-paperclip"></i> 
+              <i class="fas fa-paperclip"></i>
               photo1.png
             </a>
             <span class="mailbox-attachment-size">
@@ -134,7 +134,7 @@
 
           <div class="mailbox-attachment-info">
             <a href="#" class="mailbox-attachment-name">
-              <i class="fas fa-paperclip"></i> 
+              <i class="fas fa-paperclip"></i>
               photo2.png
             </a>
             <span class="mailbox-attachment-size">

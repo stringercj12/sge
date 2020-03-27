@@ -3,9 +3,9 @@
 @section('content_header')
     <h1>Meu Perfil</h1>
     <ol class="breadcrumb">
-        <li><a href="{{ route('admin.home')}}"><i class="fa fa-home"></i> Home</a></li>
-        <li><a href="{{ route('url_admin_email')}}">Mailbox</a></li>
-        <li class="active">Entrada</li>
+        <li class="breadcrumb-item"><a href="{{ route('admin.home')}}"><i class="fa fa-home"></i> Home</a></li>
+        <li class="breadcrumb-item"><a href="{{ route('url_admin_email')}}">Mailbox</a></li>
+        <li class="breadcrumb-item active">Entrada</li>
     </ol>
 @stop
 
